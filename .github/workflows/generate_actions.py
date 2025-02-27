@@ -34,6 +34,7 @@ jobs:
           git config --local user.name "Github Action"
           git add .
           git commit -m "done for file {arg}"
+          git pull --rebase origin master
           git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
     """.strip()
     file_name = f"actions_{arg}.yml"
