@@ -1,4 +1,4 @@
-name: Scrape
+name: Scrape 133
 on:
   workflow_dispatch:
   schedule:
@@ -31,5 +31,4 @@ jobs:
           git config --local user.name "Github Action"
           git add .
           git commit -m "done for file 133"
-          git push --force origin HEAD:master
-          # git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
+          git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
