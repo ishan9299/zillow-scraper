@@ -5,7 +5,7 @@ This script collects housing data from Zillow based on specific search filters. 
 - **What it does**: Scrapes as much data as possible, though some entries might be missing.
 - **Schedule**: Runs daily at 3:15 AM for testing. You can adjust this to run monthly if preferred.
 - **Time**: Takes at least 8 hours to complete.
-- **Output**: Saves data in CSV files with a date stamp (e.g., `data-2025-02-28.csv`). You can combine these files later into one big file if needed.
+- **Output**: Saves data in CSV files with a date stamp (e.g., `data-2025-02-28.csv`).
 
 ---
 
