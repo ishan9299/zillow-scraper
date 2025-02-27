@@ -1,7 +1,7 @@
 county,pnd_true,pnd_false,percentage_pending,avg_cost
-"Anchorage Borough, Alaska",357 results,138 results,"$397,784",0.6134453781512605,
-"Fairbanks North Star Borough, Alaska",208 results,101 results,"$292,372",0.5144230769230769,95655.0
-"Juneau Borough, Alaska",32 results,19 results,"$477,346",0.40625,
-"Ketchikan Gateway Borough, Alaska",28 results,23 results,"$382,446",0.17857142857142858,13948.0
-"North Slope Borough, Alaska",5 results,5 results,"$227,537",0.0,11031.0
-"Valdez Cordova Borough, Alaska",33 results,25 results,"$329,221",0.24242424242424243,
+"Jefferson County, Alabama","2,426 results","1,567 results","$202,569",0.354080791426216,674721
+"Madison County, Alabama","1,139 results",745 results,"$296,515",0.34591747146619845,388153
+"Baldwin County, Alabama","1,575 results","1,296 results","$377,853",0.17714285714285713,231767
+"Shelby County, Alabama",763 results,462 results,"$343,902",0.3944954128440367,223024
+"Morgan County, Alabama",348 results,260 results,"$222,314",0.25287356321839083,123421
+"Houston County, Alabama",349 results,267 results,"$187,193",0.2349570200573066,107202
