@@ -32,13 +32,17 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
-          git fetch origin master
-          git merge
+          git pull origin master --rebase
       - name: git commit files
         run: |
           git add .
-          git commit -m "done for file {arg}"
-          git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
+          git status
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated scrape for file {arg}" || echo "Nothing to commit"
+            git push origin master || echo "Push failed"
+          else
+            echo "No changes to commit"
+          fi
     """.strip()
     file_name = f"actions_{arg}.yml"
     with open(file_name, "w") as file:
