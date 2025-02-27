@@ -32,7 +32,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
-          git pull origin master
+          git fetch origin master
+          git merge origin master
       - name: git commit files
         run: |
           git add .
