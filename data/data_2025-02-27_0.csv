@@ -1,7 +1,10 @@
 county,pnd_true,pnd_false,percentage_pending,avg_cost
-"Jefferson County, Alabama","2,428 results","1,570 results","$202,569",0.35337726523887975,674721
-"Madison County, Alabama","1,138 results",745 results,"$296,515",0.3453427065026362,388153
-"Baldwin County, Alabama","1,574 results","1,295 results","$377,853",0.1772554002541296,231767
-"Shelby County, Alabama",764 results,463 results,"$343,902",0.39397905759162305,223024
+"Jefferson County, Alabama","2,429 results","1,575 results","$202,569",0.3515850144092219,674721
+"Madison County, Alabama","1,139 results",746 results,"$296,515",0.34503950834064967,388153
+"Baldwin County, Alabama","1,575 results","1,296 results","$377,853",0.17714285714285713,231767
+"Shelby County, Alabama",765 results,465 results,"$343,902",0.39215686274509803,223024
 "Morgan County, Alabama",347 results,260 results,"$222,314",0.2507204610951009,123421
 "Houston County, Alabama",349 results,267 results,"$187,193",0.2349570200573066,107202
+"Mobile County, Alabama","1,233 results",911 results,"$185,940",0.2611516626115166,414809
+"Tuscaloosa County, Alabama",580 results,363 results,"$226,887",0.3741379310344828,227036
+"Calhoun County, Alabama",339 results,230 results,"$153,866",0.3215339233038348,116441
