@@ -1,11 +1,19 @@
 args = list(range(257))
-for arg in args:
+for i, arg in enumerate(args):
+    # Calculate the start time: 2:10 AM + (5 minutes * i)
+    total_minutes = 0 + (1 * i)  # Starting at 4:00 AM, add 5 minutes per workflow
+    hour = 0 + (total_minutes // 60)  # Integer division for hours
+    minute = total_minutes % 60       # Remainder for minutes
+
+    # Ensure hour stays within 0-23 range (though 257 * 5 minutes = ~21 hours, so we're safe here)
+    hour = hour % 24
+
     template = f"""
 name: Scrape {arg}
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 2 * * *"
+    - cron: "{minute} {hour} * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,16 +38,19 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
       - name: git pull files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Github Action"
-          git pull origin master --rebase
-      - name: git commit files
-        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+          # Pull latest changes
+          git pull origin
+
+          # Add and commit changes
           git add .
-          git status
           if ! git diff --staged --quiet; then
-            git commit -m "Automated scrape for file {arg}" || echo "Nothing to commit"
-            git push origin master || echo "Push failed"
+            git commit -m "Automated scrape for file {arg} - $(date +%F)"
+            # Force push to master
+            git push origin master --force
+            echo "Force push completed successfully"
           else
             echo "No changes to commit"
           fi
