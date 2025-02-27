@@ -245,9 +245,6 @@ def main():
         df['Population'] = df['Population'].astype(int)  # Convert population to int
 
         df["County"] = df["County"].str.replace("-", " ")
-
-        df.to_csv("pop.csv", index=False)
-
         pop_df = df
 
     url = "https://www.zillow.com/browse/homes/"
