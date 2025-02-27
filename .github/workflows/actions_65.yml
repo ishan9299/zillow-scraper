@@ -29,7 +29,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
+          git fetch origin master
+          git reset --hard origin/master
           git add .
           git commit -m "done for file 65"
-          git pull --rebase origin master
           git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
