@@ -1,7 +1,7 @@
 args = list(range(257))
 for i, arg in enumerate(args):
     # Calculate the start time: 2:10 AM + (5 minutes * i)
-    total_minutes = 0 + (2 * i)  # Starting at 3:15 AM, add 2 minutes per workflow
+    total_minutes = 20 + (5 * i)  # Starting at 3:15 AM, add 2 minutes per workflow
     hour = 22 + (total_minutes // 60)  # Integer division for hours
     minute = total_minutes % 60       # Remainder for minutes
 
@@ -15,7 +15,7 @@ on:
   schedule:
     - cron: "{minute} {hour} * * *"
 jobs:
-  build:
+  actions_{arg}:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content

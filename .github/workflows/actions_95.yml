@@ -2,9 +2,9 @@ name: Scrape 95
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 1 * * *"
+    - cron: "15 6 * * *"
 jobs:
-  build:
+  actions_95:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
