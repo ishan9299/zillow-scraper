@@ -1,8 +1,8 @@
 args = list(range(257))
 for i, arg in enumerate(args):
     # Calculate the start time: 2:10 AM + (5 minutes * i)
-    total_minutes = 15 + (2 * i)  # Starting at 3:15 AM, add 2 minutes per workflow
-    hour = 3 + (total_minutes // 60)  # Integer division for hours
+    total_minutes = 0 + (2 * i)  # Starting at 3:15 AM, add 2 minutes per workflow
+    hour = 22 + (total_minutes // 60)  # Integer division for hours
     minute = total_minutes % 60       # Remainder for minutes
 
     # Ensure hour stays within 0-23 range (though 257 * 5 minutes = ~21 hours, so we're safe here)
