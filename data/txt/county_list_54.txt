@@ -1,0 +1,12 @@
+Fremont County ID
+Shoshone County ID
+Boundary County ID
+Owyhee County ID
+Teton County ID
+Valley County ID
+Washington County ID
+Benewah County ID
+Clearwater County ID
+Lemhi County ID
+Power County ID
+Boise County ID
