@@ -33,7 +33,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git fetch origin master
-          git merge origin master
+          git merge
       - name: git commit files
         run: |
           git add .
