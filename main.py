@@ -261,15 +261,20 @@ def main():
 
     today = date.today()
 
-    temp_df = pd.DataFrame({
+    main_data_csv_df = pd.DataFrame({
         'county': [],
         'pnd_true': [],
         'pnd_false': [],
+        'avg_cost': [],
         'percentage_pending': [],
-        'avg_cost': []
+        'Population': [],
     })
-    # add headers
-    temp_df.to_csv(f'data/data_{today}_{file_num}.csv', index = False)
+    main_data_csv_path = f"data/data_{today}.csv"
+    if os.path.exists(main_data_csv_path):
+        print("file exists")
+    else:
+        with open(main_data_csv_path, "w") as file:
+            main_data_csv_df.to_csv(main_data_csv_path, index = False)
 
     retry = 0
     while retry < MAX_RETRIES:
@@ -300,6 +305,6 @@ def main():
         pop_df = pop_df.rename(columns={'County': 'county'})
         merged_df = df.merge(pop_df, on='county', how='left')
         merged_df = merged_df[['county', 'pnd_true', 'pnd_false', 'avg_cost', 'percentage_pending', 'Population']]
-        merged_df.to_csv(f"data/data_{today}_{file_num}.csv", mode = "a", header=False, index = False)
+        merged_df.to_csv(main_data_csv_path, mode = "a", header=False, index = False)
 
 main()
