@@ -25,11 +25,13 @@ jobs:
           echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - name: commit files
+      - name: git pull files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git pull origin master
+      - name: git commit files
+        run: |
           git add .
           git commit -m "done for file 219"
           git push git@github.com:ishan9299/zillow-scraper.git HEAD:master
