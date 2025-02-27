@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-
+          git remote set-url origin git@github.com:ishan9299/zillow-scraper.git
           # Pull latest changes
           git pull origin
 
@@ -38,7 +38,7 @@ jobs:
           if ! git diff --staged --quiet; then
             git commit -m "Automated scrape for file 88 - $(date +%F)"
             # Force push to master
-            git push origin master --force
+            git push origin master
             echo "Force push completed successfully"
           else
             echo "No changes to commit"
