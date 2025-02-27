@@ -1,7 +1,7 @@
 args = list(range(257))
 for arg in args:
     template = f"""
-name: Scrape
+name: Scrape {arg}
 on:
   workflow_dispatch:
   schedule:
