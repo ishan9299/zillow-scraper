@@ -5,7 +5,7 @@ name: Scrape {arg}
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "10 1 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
