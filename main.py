@@ -82,7 +82,7 @@ def load_counties(url, county_name_file, state_codes):
         return counties
 
 
-MAX_RETRIES=1
+MAX_RETRIES=2
 
 def scrapeData(county, params, us_states, df, scrapes, blocked):
     county_in_url_form = county.replace(" ", "-").lower()
