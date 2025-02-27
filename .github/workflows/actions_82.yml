@@ -2,7 +2,7 @@ name: Scrape 82
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 5 * * *"
+    - cron: "50 5 * * *"
 jobs:
   actions_82:
     runs-on: ubuntu-latest

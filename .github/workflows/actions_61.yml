@@ -2,7 +2,7 @@ name: Scrape 61
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 3 * * *"
+    - cron: "5 4 * * *"
 jobs:
   actions_61:
     runs-on: ubuntu-latest
