@@ -133,3 +133,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Sacramento County, California","1,811 results","1,263 results","$526,636",0.3025952512424075,1585055
 "San Francisco County, California",399 results,243 results,"$1,241,512",0.39097744360902253,873965
 "Stanislaus County, California",866 results,568 results,"$462,290",0.3441108545034642,552878
+"Solano County, California",795 results,497 results,"$583,387",0.37484276729559746,453491
+"Monterey County, California",502 results,344 results,"$828,259",0.3147410358565737,439035
+"San Luis Obispo County, California",607 results,397 results,"$880,541",0.34596375617792424,282424
+"Santa Cruz County, California",328 results,252 results,"$1,120,201",0.23170731707317074,270861
+"Butte County, California",526 results,395 results,"$388,672",0.24904942965779467,211632
+"El Dorado County, California",702 results,560 results,"$645,781",0.2022792022792023,191185
+"Santa Barbara County, California",590 results,393 results,"$954,202",0.3338983050847458,448229
+"Merced County, California",511 results,351 results,"$412,671",0.3131115459882583,281202
+"Yolo County, California",249 results,163 results,"$609,475",0.3453815261044177,216403
