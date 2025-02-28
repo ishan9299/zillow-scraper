@@ -124,3 +124,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Gila County, Arizona",352 results,299 results,"$372,725",0.15056818181818182,53272
 "Greenlee County, Arizona",8 results,7 results,"$151,200",0.125,9563
 "Riverside County, California","7,040 results","5,076 results","$605,976",0.27897727272727274,2418185
+"Alameda County, California","1,432 results",880 results,"$1,103,730",0.3854748603351955,1682353
+"Contra Costa County, California","1,524 results",935 results,"$801,921",0.38648293963254593,1165927
+"Kern County, California","2,219 results","1,570 results","$355,360",0.29247408742676884,909235
+"Ventura County, California","1,143 results",717 results,"$868,717",0.37270341207349084,843843
+"San Mateo County, California",536 results,325 results,"$1,546,857",0.39365671641791045,764442
+"Sonoma County, California",795 results,570 results,"$791,668",0.2830188679245283,488863
+"Sacramento County, California","1,811 results","1,263 results","$526,636",0.3025952512424075,1585055
+"San Francisco County, California",399 results,243 results,"$1,241,512",0.39097744360902253,873965
+"Stanislaus County, California",866 results,568 results,"$462,290",0.3441108545034642,552878
