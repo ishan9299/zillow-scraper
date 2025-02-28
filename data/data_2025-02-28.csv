@@ -43,3 +43,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Modoc County, California",53 results,46 results,"$182,914",0.1320754716981132,8700
 "Denver County, Colorado","1,087 results",976 results,"$551,550",0.10211591536338546,715522
 "Larimer County, Colorado",658 results,603 results,"$547,619",0.08358662613981763,359066
+"Rio Blanco County, Colorado",22 results,17 results,"$298,770",0.22727272727272727,6529
+"Crowley County, Colorado",17 results,13 results,"$139,338",0.23529411764705882,5922
+"Gilpin County, Colorado",20 results,20 results,"$545,448",0.0,5808
+"Ouray County, Colorado",53 results,43 results,"$786,573",0.18867924528301888,4874
+"Custer County, Colorado",116 results,106 results,"$401,590",0.08620689655172414,4704
+"Baca County, Colorado",8 results,7 results,"$540,789",0.125,3506
+"Saguache County, Colorado",48 results,44 results,"$273,403",0.08333333333333333,6368
+"Lincoln County, Colorado",15 results,11 results,"$239,507",0.26666666666666666,5675
+"Phillips County, Colorado",27 results,24 results,"$237,811",0.1111111111111111,4530
