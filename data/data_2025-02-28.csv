@@ -821,3 +821,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Wolfe County, Kentucky",16 results,12 results,"$215,034",0.25,6562
 "Carlisle County, Kentucky",8 results,6 results,"$127,913",0.25,4826
 "East Baton Rouge Parish, Louisiana","1,412 results","1,073 results","$219,391",0.24008498583569404,456781
+"Saint Tammany Parish, Louisiana","1,305 results","1,026 results","$276,139",0.21379310344827587,
+"Caddo Parish, Louisiana",940 results,707 results,"$133,881",0.2478723404255319,237848.0
+"Ouachita Parish, Louisiana",360 results,243 results,"$167,166",0.325,160368.0
+"Tangipahoa Parish, Louisiana",421 results,311 results,"$205,175",0.26128266033254155,133157.0
+"Bossier Parish, Louisiana",462 results,314 results,"$227,015",0.3203463203463203,128746.0
+"Terrebonne Parish, Louisiana",480 results,434 results,"$174,688",0.09583333333333334,109580.0
+"Lafayette Parish, Louisiana",497 results,371 results,"$225,534",0.2535211267605634,241753
+"Livingston Parish, Louisiana",502 results,395 results,"$241,734",0.21314741035856574,142282
+"Ascension Parish, Louisiana",377 results,285 results,"$297,318",0.2440318302387268,126500
