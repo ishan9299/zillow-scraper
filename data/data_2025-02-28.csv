@@ -61,3 +61,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Dolores County, Colorado",12 results,10 results,"$275,035",0.16666666666666666,2326
 "Hinsdale County, Colorado",21 results,19 results,"$422,553",0.09523809523809523,788
 "Hartford County, Connecticut",701 results,299 results,"$349,384",0.5734664764621968,899498
+"Collier County, Florida","3,709 results","3,137 results","$584,119",0.15421946616338636,375752.0
+"Saint Lucie County, Florida","2,279 results","2,067 results","$378,966",0.09302325581395349,
+"Leon County, Florida",637 results,446 results,"$283,592",0.29984301412872844,292198.0
+"Saint Johns County, Florida","1,669 results","1,487 results","$501,565",0.10904733373277412,
+"Okaloosa County, Florida","1,166 results",898 results,"$351,995",0.22984562607204118,211668.0
+"Charlotte County, Florida","3,175 results","2,750 results","$327,786",0.13385826771653545,186847.0
+"Marion County, Florida","2,950 results","2,341 results","$276,275",0.2064406779661017,375908
+"Alachua County, Florida",778 results,538 results,"$300,378",0.30848329048843187,278468
+"Hernando County, Florida","1,391 results",973 results,"$312,255",0.30050323508267435,194515
