@@ -25,3 +25,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Gila County, Arizona",351 results,299 results,"$372,725",0.14814814814814814,53272
 "Greenlee County, Arizona",8 results,7 results,"$151,200",0.125,9563
 "Riverside County, California","7,053 results","5,084 results","$605,976",0.27917198355309797,2418185
+"Tuolumne County, California",398 results,315 results,"$387,614",0.20854271356783918,55620
+"Siskiyou County, California",39 results,34 results,"$275,916",0.1282051282051282,44076
+"Lassen County, California",131 results,110 results,"$222,628",0.16030534351145037,32730
+"Del Norte County, California",94 results,93 results,"$360,764",0.010638297872340425,27743
+"Plumas County, California",137 results,111 results,"$367,151",0.1897810218978102,19790
+"Mariposa County, California",129 results,104 results,"$383,086",0.1937984496124031,17131
+"Calaveras County, California",398 results,316 results,"$431,908",0.20603015075376885,45292
+"Glenn County, California",58 results,40 results,"$339,460",0.3103448275862069,28917
+"Inyo County, California",34 results,24 results,"$489,158",0.29411764705882354,19016
