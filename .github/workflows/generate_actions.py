@@ -1,23 +1,25 @@
 args = list(range(257))
 
-for i, arg in enumerate(args):
-    # Calculate the start time: 5:00 AM + (5 minutes * i)
-    total_minutes = 0 + (5 * i)  # Starting at 5:00 AM, add 5 minutes per workflow
-    hour = 5 + (total_minutes // 60)  # Integer division for hours
-    minute = total_minutes % 60       # Remainder for minutes
-
-    # Ensure hour stays within 0-23 range (though 257 * 5 minutes = ~21 hours, so we're safe here)
-    hour = hour % 24
-
-    content = f"""
+content = """
 name: Scrape {arg}
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "{minute} {hour} * * *"
+    - cron: "0 5 * * *"
+
 jobs:
+"""
+
+for i, arg in enumerate(args):
+
+    needs_section = f"needs: actions_{args[i - 1]}\n" if i > 0 else ""
+
+    content += f"""
+
   actions_{arg}:
     runs-on: ubuntu-latest
+    {needs_section}
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
@@ -55,24 +57,15 @@ jobs:
 
           echo "git push"
           git push origin master
-    """.strip()
-    file_name = f"actions_{arg}.yml"
-    with open(file_name, "w") as file:
-        file.write(content)
+
+    """.rstrip()
 
 # Generate final job
 job_names = ", ".join([f"actions_{i}" for i in range(0, len(args))])
-content = f"""
-name: Merge CSVs
+content += f"""
 
-on:
-  push:
-    branches:
-      - master
-
-jobs:
   final-job:
-    needs: [{job_names}]
+    needs: actions_256
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -114,6 +107,7 @@ jobs:
 
           echo "git push"
           git push origin master
-""".strip()
-with open("final_job.yml", "w") as action_file:
+""".rstrip()
+
+with open("actions.yml", "w") as action_file:
     action_file.write(f"{content}")
