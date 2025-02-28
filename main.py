@@ -267,7 +267,7 @@ def main():
         'Population': [],
     })
 
-    main_data_csv_path = f"data/csv/{file_num}_data_{today}.csv"
+    main_data_csv_path = f"data/data_{today}.csv"
     if os.path.exists(main_data_csv_path):
         print("file exists")
     else:
