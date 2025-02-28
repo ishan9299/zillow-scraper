@@ -31,6 +31,12 @@ for i, arg in enumerate(args):
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: setup ssh
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{{{ secrets.DEPLOY_KEY }}}}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
       - name: git pull
         run: |
           git config --global user.email "action@github.com"
@@ -42,12 +48,6 @@ for i, arg in enumerate(args):
           git pull origin
       - name: execute python script
         run: python main.py ./data/txt/county_list_{arg}.txt
-      - name: setup ssh
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{{{ secrets.DEPLOY_KEY }}}}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
       - name: git commit
         run: |
           git config --global user.email "action@github.com"
