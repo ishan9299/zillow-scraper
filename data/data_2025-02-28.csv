@@ -1,0 +1,72 @@
+county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
+"Nevada County, Arkansas",27 results,19 results,"$209,000",0.2962962962962963,8310
+"Searcy County, Arkansas",42 results,38 results,"$164,714",0.09523809523809523,7828
+"Newton County, Arkansas",41 results,40 results,"$231,581",0.024390243902439025,7225
+"Dallas County, Arkansas",15 results,13 results,"$87,410",0.13333333333333333,6482
+"Woodruff County, Arkansas",12 results,9 results,"$67,744",0.25,6269
+"Prairie County, Arkansas",14 results,13 results,"$124,687",0.07142857142857142,8282
+"Monroe County, Arkansas",17 results,11 results,"$76,831",0.35294117647058826,6799
+"Calhoun County, Arkansas",16 results,12 results,"$118,054",0.25,4739
+"Maricopa County, Arizona","14,334 results","11,551 results","$463,613",0.19415376029021905,4420568
+"Pima County, Arizona","3,737 results","2,608 results","$345,055",0.3021139951833021,1043433
+"Pinal County, Arizona","2,629 results","2,181 results","$370,970",0.1704069988588817,425264
+"Yavapai County, Arizona","1,347 results","1,031 results","$497,027",0.23459539717891612,236209
+"Mohave County, Arizona","1,263 results",946 results,"$350,951",0.2509897070467142,213267
+"Yuma County, Arizona",580 results,534 results,"$277,284",0.07931034482758621,203881
+"Coconino County, Arizona",355 results,275 results,"$622,213",0.22535211267605634,145101
+"Cochise County, Arizona",509 results,432 results,"$250,518",0.1512770137524558,125447
+"Navajo County, Arizona",376 results,317 results,"$378,200",0.15691489361702127,106717
+"Apache County, Arizona",130 results,125 results,"$294,944",0.038461538461538464,66021
+"Santa Cruz County, Arizona",248 results,208 results,"$267,414",0.16129032258064516,47669
+"La Paz County, Arizona",59 results,53 results,"$281,018",0.1016949152542373,16557
+"Los Angeles County, California","10,680 results","7,202 results","$880,547",0.32565543071161046,10014009
+"Orange County, California","2,915 results","1,853 results","$1,156,051",0.36432246998284734,3186989
+"San Bernardino County, California","5,647 results","4,207 results","$548,330",0.25500265627766955,2181654
+"Gila County, Arizona",351 results,299 results,"$372,725",0.14814814814814814,53272
+"Greenlee County, Arizona",8 results,7 results,"$151,200",0.125,9563
+"Riverside County, California","7,053 results","5,084 results","$605,976",0.27917198355309797,2418185
+"Tuolumne County, California",398 results,315 results,"$387,614",0.20854271356783918,55620
+"Siskiyou County, California",39 results,34 results,"$275,916",0.1282051282051282,44076
+"Lassen County, California",131 results,110 results,"$222,628",0.16030534351145037,32730
+"Del Norte County, California",94 results,93 results,"$360,764",0.010638297872340425,27743
+"Plumas County, California",137 results,111 results,"$367,151",0.1897810218978102,19790
+"Mariposa County, California",129 results,104 results,"$383,086",0.1937984496124031,17131
+"Calaveras County, California",398 results,316 results,"$431,908",0.20603015075376885,45292
+"Glenn County, California",58 results,40 results,"$339,460",0.3103448275862069,28917
+"Inyo County, California",34 results,24 results,"$489,158",0.29411764705882354,19016
+"Mono County, California",44 results,35 results,"$723,719",0.20454545454545456,13195
+"Sierra County, California",22 results,19 results,"$319,922",0.13636363636363635,3236
+"El Paso County, Colorado","1,829 results","1,271 results","$453,441",0.3050847457627119,730395
+"Arapahoe County, Colorado","1,045 results",900 results,"$529,686",0.13875598086124402,655070
+"Adams County, Colorado",789 results,670 results,"$491,899",0.15082382762991128,519572
+"Douglas County, Colorado",805 results,655 results,"$717,761",0.18633540372670807,357978
+"Modoc County, California",53 results,46 results,"$182,914",0.1320754716981132,8700
+"Denver County, Colorado","1,087 results",976 results,"$551,550",0.10211591536338546,715522
+"Larimer County, Colorado",658 results,603 results,"$547,619",0.08358662613981763,359066
+"Rio Blanco County, Colorado",22 results,17 results,"$298,770",0.22727272727272727,6529
+"Crowley County, Colorado",17 results,13 results,"$139,338",0.23529411764705882,5922
+"Gilpin County, Colorado",20 results,20 results,"$545,448",0.0,5808
+"Ouray County, Colorado",53 results,43 results,"$786,573",0.18867924528301888,4874
+"Custer County, Colorado",116 results,106 results,"$401,590",0.08620689655172414,4704
+"Baca County, Colorado",8 results,7 results,"$540,789",0.125,3506
+"Saguache County, Colorado",48 results,44 results,"$273,403",0.08333333333333333,6368
+"Lincoln County, Colorado",15 results,11 results,"$239,507",0.26666666666666666,5675
+"Phillips County, Colorado",27 results,24 results,"$237,811",0.1111111111111111,4530
+"Sedgwick County, Colorado",14 results,12 results,"$161,062",0.14285714285714285,2404
+"Cheyenne County, Colorado",7 results,7 results,"$186,122",0.0,1748
+"Jackson County, Colorado",10 results,10 results,"$540,789",0.0,1379
+"Mineral County, Colorado",11 results,8 results,"$404,775",0.2727272727272727,865
+"Fairfield County, Connecticut",969 results,544 results,"$625,639",0.43859649122807015,957419
+"New Haven County, Connecticut",784 results,431 results,"$367,723",0.4502551020408163,864835
+"Dolores County, Colorado",12 results,10 results,"$275,035",0.16666666666666666,2326
+"Hinsdale County, Colorado",21 results,19 results,"$422,553",0.09523809523809523,788
+"Hartford County, Connecticut",701 results,299 results,"$349,384",0.5734664764621968,899498
+"Collier County, Florida","3,709 results","3,137 results","$584,119",0.15421946616338636,375752.0
+"Saint Lucie County, Florida","2,279 results","2,067 results","$378,966",0.09302325581395349,
+"Leon County, Florida",637 results,446 results,"$283,592",0.29984301412872844,292198.0
+"Saint Johns County, Florida","1,669 results","1,487 results","$501,565",0.10904733373277412,
+"Okaloosa County, Florida","1,166 results",898 results,"$351,995",0.22984562607204118,211668.0
+"Charlotte County, Florida","3,175 results","2,750 results","$327,786",0.13385826771653545,186847.0
+"Marion County, Florida","2,950 results","2,341 results","$276,275",0.2064406779661017,375908
+"Alachua County, Florida",778 results,538 results,"$300,378",0.30848329048843187,278468
+"Hernando County, Florida","1,391 results",973 results,"$312,255",0.30050323508267435,194515
