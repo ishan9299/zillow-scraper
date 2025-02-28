@@ -1037,3 +1037,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Lincoln County, Minnesota",21 results,11 results,"$182,583",0.47619047619047616,5640.0
 "Kittson County, Minnesota",7 results,5 results,"$139,040",0.2857142857142857,4207.0
 "Saint Louis County, Missouri","2,118 results","1,050 results","$263,444",0.5042492917847026,
+"Saint Louis City, Missouri",702 results,437 results,"$166,452",0.37749287749287747,
+"Clay County, Missouri",460 results,210 results,"$297,670",0.5434782608695652,253335.0
+"Boone County, Missouri",323 results,165 results,"$303,398",0.4891640866873065,183610.0
+"Cass County, Missouri",262 results,126 results,"$305,435",0.5190839694656488,107824.0
+"Franklin County, Missouri",232 results,142 results,"$250,968",0.3879310344827586,104682.0
+"Buchanan County, Missouri",170 results,107 results,"$166,420",0.37058823529411766,84793.0
+"Greene County, Missouri",925 results,576 results,"$241,933",0.3772972972972973,298915
+"Jasper County, Missouri",398 results,252 results,"$199,235",0.36683417085427134,122761
+"Christian County, Missouri",316 results,196 results,"$298,561",0.379746835443038,88842
