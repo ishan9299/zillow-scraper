@@ -1,0 +1,10 @@
+county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
+"Jefferson County, Alabama","2,426 results","1,574 results","$202,569",0.3511953833470734,674721
+"Madison County, Alabama","1,139 results",750 results,"$296,515",0.3415276558384548,388153
+"Baldwin County, Alabama","1,579 results","1,299 results","$377,853",0.1773274224192527,231767
+"Shelby County, Alabama",767 results,463 results,"$343,902",0.3963494132985658,223024
+"Morgan County, Alabama",347 results,260 results,"$222,314",0.2507204610951009,123421
+"Houston County, Alabama",349 results,267 results,"$187,193",0.2349570200573066,107202
+"Mobile County, Alabama","1,237 results",912 results,"$185,940",0.2627324171382377,414809
+"Tuscaloosa County, Alabama",580 results,365 results,"$226,887",0.3706896551724138,227036
+"Calhoun County, Alabama",340 results,229 results,"$153,866",0.3264705882352941,116441
