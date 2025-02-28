@@ -160,3 +160,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Calaveras County, California",398 results,315 results,"$431,908",0.20854271356783918,45292
 "Glenn County, California",58 results,40 results,"$339,460",0.3103448275862069,28917
 "Inyo County, California",34 results,24 results,"$489,158",0.29411764705882354,19016
+"Mono County, California",44 results,35 results,"$723,719",0.20454545454545456,13195
+"Sierra County, California",22 results,19 results,"$319,922",0.13636363636363635,3236
+"El Paso County, Colorado","1,834 results","1,277 results","$453,441",0.3037077426390403,730395
+"Arapahoe County, Colorado","1,049 results",905 results,"$529,686",0.13727359389895138,655070
+"Adams County, Colorado",795 results,675 results,"$491,899",0.1509433962264151,519572
+"Douglas County, Colorado",806 results,656 results,"$717,761",0.18610421836228289,357978
+"Modoc County, California",53 results,46 results,"$182,914",0.1320754716981132,8700
+"Denver County, Colorado","1,092 results",981 results,"$551,550",0.10164835164835165,715522
+"Larimer County, Colorado",657 results,603 results,"$547,619",0.0821917808219178,359066
