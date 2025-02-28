@@ -169,3 +169,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Modoc County, California",53 results,46 results,"$182,914",0.1320754716981132,8700
 "Denver County, Colorado","1,092 results",981 results,"$551,550",0.10164835164835165,715522
 "Larimer County, Colorado",657 results,603 results,"$547,619",0.0821917808219178,359066
+"Weld County, Colorado",744 results,679 results,"$497,079",0.08736559139784947,328981
+"Mesa County, Colorado",584 results,345 results,"$403,854",0.4092465753424658,155703
+"Garfield County, Colorado",155 results,101 results,"$668,432",0.34838709677419355,61685
+"La Plata County, Colorado",168 results,134 results,"$644,368",0.20238095238095238,55638
+"Montrose County, Colorado",168 results,125 results,"$423,931",0.25595238095238093,42679
+"Summit County, Colorado",145 results,108 results,"$955,736",0.25517241379310346,31055
+"Pueblo County, Colorado",750 results,640 results,"$283,602",0.14666666666666667,168162
+"Eagle County, Colorado",138 results,106 results,"$1,309,430",0.2318840579710145,55731
+"Delta County, Colorado",173 results,144 results,"$388,648",0.1676300578034682,31196
