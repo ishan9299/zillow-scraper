@@ -65,6 +65,11 @@ job_names = ", ".join([f"actions_{i}" for i in range(0, len(args))])
 content = f"""
 name: Merge CSVs
 
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   final-job:
     needs: [{job_names}]
