@@ -115,3 +115,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Coconino County, Arizona",356 results,275 results,"$622,213",0.22752808988764045,145101
 "Cochise County, Arizona",506 results,431 results,"$250,518",0.1482213438735178,125447
 "Navajo County, Arizona",376 results,317 results,"$378,200",0.15691489361702127,106717
+"Apache County, Arizona",129 results,124 results,"$294,944",0.03875968992248062,66021
+"Santa Cruz County, Arizona",248 results,208 results,"$267,414",0.16129032258064516,47669
+"La Paz County, Arizona",59 results,53 results,"$281,018",0.1016949152542373,16557
+"Los Angeles County, California","10,709 results","7,232 results","$880,547",0.32468017555327294,10014009
+"Orange County, California","2,918 results","1,856 results","$1,156,051",0.36394790952707334,3186989
+"San Bernardino County, California","5,649 results","4,212 results","$548,330",0.2543813064259161,2181654
+"Gila County, Arizona",352 results,299 results,"$372,725",0.15056818181818182,53272
+"Greenlee County, Arizona",8 results,7 results,"$151,200",0.125,9563
+"Riverside County, California","7,040 results","5,076 results","$605,976",0.27897727272727274,2418185
