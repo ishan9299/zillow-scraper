@@ -42,18 +42,13 @@ jobs:
           git config --global user.name "GitHub Action"
           git remote set-url origin git@github.com:ishan9299/zillow-scraper.git
           # Pull latest changes
-          git pull origin
-
           # Add and commit changes
           git add .
-          if ! git diff --staged --quiet; then
-            git commit -m "Automated scrape for file {arg} - $(date +%F)"
-            # Force push to master
-            git push origin master
-            echo "Force push completed successfully"
-          else
-            echo "No changes to commit"
-          fi
+          git commit -m "Automated scrape for file {arg} - $(date +%F)"
+          git pull origin
+          git push origin master
+          echo "Force push completed successfully"
+          echo "No changes to commit"
     """.strip()
     file_name = f"actions_{arg}.yml"
     with open(file_name, "w") as file:
