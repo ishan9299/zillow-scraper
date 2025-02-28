@@ -36,19 +36,24 @@ jobs:
           echo "${{{{ secrets.DEPLOY_KEY }}}}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - name: git pull files
+      - name: git
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git remote set-url origin git@github.com:ishan9299/zillow-scraper.git
+
           # Pull latest changes
           # Add and commit changes
+          echo "git commit"
           git add .
           git commit -m "Automated scrape for file {arg} - $(date +%F)"
+
+          echo "git pull"
+          git config pull.rebase true
           git pull origin
+
+          echo "git push"
           git push origin master
-          echo "Force push completed successfully"
-          echo "No changes to commit"
     """.strip()
     file_name = f"actions_{arg}.yml"
     with open(file_name, "w") as file:
