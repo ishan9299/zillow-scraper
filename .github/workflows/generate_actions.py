@@ -31,6 +31,15 @@ for i, arg in enumerate(args):
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: git pull
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git remote set-url origin git@github.com:ishan9299/zillow-scraper.git
+
+          echo "git pull"
+          git config pull.rebase true
+          git pull origin
       - name: execute python script
         run: python main.py ./data/txt/county_list_{arg}.txt
       - name: setup ssh
@@ -39,7 +48,7 @@ for i, arg in enumerate(args):
           echo "${{{{ secrets.DEPLOY_KEY }}}}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-      - name: git
+      - name: git commit
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
@@ -50,10 +59,6 @@ for i, arg in enumerate(args):
           echo "git commit"
           git add .
           git commit -m "Automated scrape for file {arg} - $(date +%F)"
-
-          echo "git pull"
-          git config pull.rebase true
-          git pull origin
 
           echo "git push"
           git push origin master
