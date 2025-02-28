@@ -287,8 +287,8 @@ def main():
 
             scrapes = 0
 
-            blocked = 0
             for county in counties:
+                blocked = 0
                 blocked = scrapeData(county, params, us_states, df, scrapes, blocked)
                 if blocked == 0:
                     scrapes += 1
