@@ -1341,3 +1341,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Adams County, North Dakota",10 results,10 results,"$135,334",0.0,2200
 "Steele County, North Dakota",5 results,3 results,"$264,677",0.4,1798
 "Billings County, North Dakota",3 results,2 results,"$264,677",0.3333333333333333,945
+"Douglas County, Nebraska","1,158 results",580 results,"$274,532",0.4991364421416235,584526
+"Sarpy County, Nebraska",381 results,162 results,"$334,284",0.5748031496062992,190604
+"Buffalo County, Nebraska",67 results,31 results,"$282,590",0.5373134328358209,50084
+"Scotts Bluff County, Nebraska",95 results,61 results,"$177,799",0.35789473684210527,36084
+"Lincoln County, Nebraska",125 results,61 results,"$197,049",0.512,34676
+"Adams County, Nebraska",88 results,53 results,"$194,212",0.3977272727272727,31205
+"Lancaster County, Nebraska",544 results,255 results,"$281,657",0.53125,322608
+"Dodge County, Nebraska",95 results,66 results,"$221,291",0.30526315789473685,37167
+"Platte County, Nebraska",48 results,46 results,"$264,849",0.041666666666666664,34296
