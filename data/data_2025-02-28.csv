@@ -223,3 +223,12 @@ county,pnd_true,pnd_false,avg_cost,percentage_pending,Population
 "Middlesex County, Connecticut",205 results,112 results,"$411,528",0.45365853658536587,164245
 "Sussex County, Delaware",908 results,597 results,"$467,159",0.34251101321585903,237378
 "Palm Beach County, Florida","6,479 results","5,640 results","$478,143",0.12949529248340794,1492191
+"Duval County, Florida","3,666 results","3,123 results","$296,136",0.14811783960720132,995567
+"Lee County, Florida","8,322 results","6,952 results","$370,888",0.16462388848834414,760822
+"Brevard County, Florida","3,115 results","2,319 results","$346,632",0.25553772070626,606612
+"Volusia County, Florida","3,463 results","2,682 results","$327,064",0.22552699971123302,553543
+"Sarasota County, Florida","4,731 results","3,742 results","$425,352",0.20904671316846332,434006
+"Osceola County, Florida","2,397 results","1,973 results","$372,468",0.1768877763871506,388656
+"Pinellas County, Florida","4,615 results","3,357 results","$380,877",0.27258938244853737,959107
+"Pasco County, Florida","3,140 results","2,226 results","$339,545",0.2910828025477707,561891
+"Manatee County, Florida","2,877 results","2,260 results","$433,125",0.21445950643030934,399710
